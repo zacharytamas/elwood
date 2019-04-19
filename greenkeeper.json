@@ -1,11 +1,7 @@
 {
   "groups": {
     "default": {
-      "packages": [
-        "package.json",
-        "packages/inbox/package.json",
-        "packages/message/package.json"
-      ]
+      "packages": ["package.json", "packages/message/package.json"]
     }
   }
 }
