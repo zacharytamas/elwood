@@ -1,0 +1,29 @@
+{
+  "name": "@elwood/message",
+  "version": "0.0.0",
+  "description": "Package defining Messages and how to work with them.",
+  "author": "Zachary Jones <zachary@jones.cx>",
+  "homepage": "https://github.com/zacharytamas/elwood",
+  "license": "ISC",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "front-matter": "^3.0.1",
+    "js-yaml": "^3.12.1"
+  },
+  "devDependencies": {
+    "@types/common-tags": "^1.8.0",
+    "@types/jest": "^24.0.6",
+    "@types/js-yaml": "^3.12.0",
+    "common-tags": "^1.8.0",
+    "jest": "^24.1.0"
+  }
+}
