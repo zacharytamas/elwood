@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "bootstrap": "lerna bootstrap"
   },
   "keywords": [],
   "author": "Zachary Jones <zachary@thorough.company>",
