@@ -18,7 +18,7 @@
   "dependencies": {
     "common-tags": "^1.8.0",
     "front-matter": "^3.0.1",
-    "js-yaml": "^3.12.1"
+    "js-yaml": "^3.13.1"
   },
   "devDependencies": {
     "@types/common-tags": "^1.8.0",
