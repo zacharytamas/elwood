@@ -1,0 +1,24 @@
+{
+  "name": "@elwood/filetree",
+  "version": "0.0.0",
+  "description": "Utilities for reading and writing Elwood notes from a file tree.",
+  "author": "Zachary Jones <zachary@thorough.company>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharytamas/elwood.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.9.2",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "build:types": "tsc --emitDeclarationOnly"
+  }
+}
