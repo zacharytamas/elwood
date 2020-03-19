@@ -1,7 +1,12 @@
 # Elwood
 
+[![GitHub][github-badge]][github]
+[![Stars][]][github]
 [![Travis badge](https://travis-ci.org/zacharytamas/elwood.svg?branch=master)](https://travis-ci.org/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zacharytamas/elwood.svg)](https://greenkeeper.io/)
+
+[github]: https://github.com/zacharytamas/elwood
+[github-badge]: https://flat.badgen.net/badge/-/github?icon=github&label
+[stars]: https://badgen.net/github/stars/zacharytamas/elwood
 
 This is an experimental project for building a system, at a high-level, for accepting arbitrary text input ("messages") and taking actions based on their structure. Messages are stored one-per-file (the file's body is the Message) in a vanilla file system directory. Elwood defines a strategy of observing these directories and the Messages contained therein and reacting to changes to the Messages, sometimes including mutating the Message.
 
