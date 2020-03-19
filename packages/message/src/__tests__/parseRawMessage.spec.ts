@@ -1,5 +1,6 @@
-import {parseRawMessage} from '../message';
-import {stripIndent} from 'common-tags';
+import { stripIndent } from 'common-tags';
+
+import { parseRawMessage } from '../message';
 
 describe('parseRawMessage()', () => {
   test('smoke test', () => {
