@@ -1,0 +1,26 @@
+{
+  "name": "@elwood/linter",
+  "version": "0.0.0",
+  "description": "A linter for Elwood Notes.",
+  "author": "Zachary Jones <zachary@thorough.company>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharytamas/elwood.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.9.2",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@elwood/filetree": "0.0.0",
+    "@elwood/note": "0.0.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "build:types": "tsc --emitDeclarationOnly"
+  }
+}
