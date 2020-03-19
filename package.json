@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,md,json}\""
   },
   "keywords": [],
   "author": "Zachary Jones <zachary@thorough.company>",
@@ -20,6 +21,7 @@
     "@babel/preset-typescript": "^7.8.3",
     "@types/jest": "^25.1.4",
     "babel-jest": "^25.1.0",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1"
   }
 }
