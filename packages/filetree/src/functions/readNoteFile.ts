@@ -1,3 +1,5 @@
+import { fromRawString } from '@elwood/note';
+
 import { calculateNotePath, readFile } from '../utils';
 
 /**
@@ -5,4 +7,6 @@ import { calculateNotePath, readFile } from '../utils';
  * parses it, and returns a Note instance.
  */
 export default (treeRoot: string, noteId: string) =>
-  readFile(calculateNotePath(treeRoot, noteId)).then(buffer => buffer.toString());
+  readFile(calculateNotePath(treeRoot, noteId))
+    .then(buffer => buffer.toString())
+    .then(body => fromRawString(noteId, body));
