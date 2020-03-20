@@ -1,0 +1,25 @@
+{
+  "name": "@elwood/note",
+  "version": "0.0.0",
+  "description": "Package defining Notes and how to work with them.",
+  "author": "Zachary Jones <zachary@jones.cx>",
+  "homepage": "https://github.com/zacharytamas/elwood",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "build:types": "tsc --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "front-matter": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/common-tags": "^1.8.0",
+    "common-tags": "^1.8.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}
