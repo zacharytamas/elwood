@@ -7,6 +7,7 @@
   "scripts": {
     "test": "jest",
     "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,md,json}\""
   },
   "keywords": [],
