@@ -1,3 +1,6 @@
+/** An identifier for a Note. */
+export type NoteId = string;
+
 export interface Auditable {
   createdAt?: Date;
   updatedAt?: Date;
@@ -21,6 +24,7 @@ export interface Informable {
 export type BaseNoteMeta = Auditable & Reviewable & Informable;
 
 export interface Note<T extends BaseNoteMeta = BaseNoteMeta> {
+  id: NoteId;
   body: string;
   meta: T;
 }
