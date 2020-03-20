@@ -21,7 +21,17 @@ export interface Informable {
   informedBy?: NoteId[];
 }
 
-export type BaseNoteMeta = Auditable & Reviewable & Informable;
+interface IndexEntry {
+  name: string;
+  entry: string;
+  description?: string;
+}
+
+export interface Indexable {
+  indexes?: IndexEntry[];
+}
+
+export type BaseNoteMeta = Auditable & Reviewable & Informable & Indexable;
 
 export interface Note<T extends BaseNoteMeta = BaseNoteMeta> {
   id: NoteId;
