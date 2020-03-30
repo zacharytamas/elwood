@@ -8,5 +8,5 @@ import { calculateNotePath, readFile } from '../utils';
  */
 export default (treeRoot: string, noteId: string) =>
   readFile(calculateNotePath(treeRoot, noteId))
-    .then(buffer => buffer.toString())
-    .then(body => fromRawString(noteId, body));
+    .then((buffer) => buffer.toString())
+    .then((body) => fromRawString(noteId, body));
